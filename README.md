@@ -22,8 +22,12 @@ Every year, countries like India lose over 35% of crop yield due to plant diseas
 - `README.md` — This file.
 
 ## 🧰 Models Trained
-1. Custom CNN: 5 Conv-BN-ReLU-MaxPool-Dropout blocks; Dense output with softmax classifier.
+1. Custom CNN: 5 Conv-BN-ReLU-MaxPool-Dropout blocks; Dense output with softmax classifier. 
 2. InceptionV3: Pre-trained on ImageNet, fine-tuned with a custom dense head; Transfer learning for improved generalization.
+
+Pre-trained models: 
+https://drive.google.com/drive/folders/1kalcKCor-wCHMdtlO7w9lCvj4NZ13n9Z?usp=sharing
+https://drive.google.com/drive/folders/1DifSB-AUvu9tFsvxuEsO-p32lk6fpecr?usp=sharing
 
 ## Datasets
 1. PlantVillage: Clean, lab-collected dataset with 15 disease classes. Pictures taken in a more controlled lab settings.
